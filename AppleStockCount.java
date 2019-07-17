@@ -30,7 +30,7 @@ public class AppleStockCount {
 					}
 				}
 				message.append(" for a total of R");
-				message.append(total);
+				message.append(String.format("%.2f", total));
 			}
 			System.out.println(message.toString());
 		}
